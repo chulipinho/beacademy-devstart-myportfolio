@@ -12,10 +12,16 @@
             rel="stylesheet"
         />
 
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+        />
+
         <link rel="stylesheet" href="./css/pattern.css" />
         <link rel="stylesheet" href="./css/reset.css" />
         <link rel="stylesheet" href="./css/style.css" />
         <link rel="stylesheet" href="./css/responsive.css" />
+        <link rel="stylesheet" href="./css/swiper.css" />
 
         <title>Document</title>
     </head>
@@ -136,6 +142,76 @@
                     </div>
                 </div>
             </section>
+
+            <section class="s-about">
+                <div class="container">
+                    <div class="text-content">
+                        <h2>QUEM SOU<span>.</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Morbi vel posuere enim. Quisque cursus ac leo
+                            et maximus. Proin non diam congue, sodales velit et,
+                            cursus ante. Suspendisse convallis rhoncus dapibus.
+                            Vivamus accumsan leo id blandit ultrices. Fusce
+                            libero ligula, ullamcorper quis facilisis sed,
+                            commodo nec lacus.
+                        </p>
+                        <ul>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img
+                                        src="./assets/img/icon-linkedin.svg"
+                                        alt="Ícone do Linkedin"
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img
+                                        src="./assets/img/icon-instagram.svg"
+                                        alt="Ícone do instagram"
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <img
+                                        src="./assets/img/icon-github.svg"
+                                        alt="Ícone do Github"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="img-container">
+                        <img
+                            src="./assets/img/picture.jpg"
+                            alt="Foto do autor"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <section class="s-cases">
+                <div class="container">
+                    <h2>CASES<span>.</span></h2>
+                    <div class="case-swiper">
+                        <div class="swiper caseSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./assets/img/case1.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/img/case2.jpg" alt="" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/img/case3.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
             <div class="container">
@@ -144,5 +220,8 @@
                 </div>
             </div>
         </footer>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./js/swiper.js"></script>
     </body>
 </html>

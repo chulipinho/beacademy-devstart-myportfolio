@@ -175,6 +175,58 @@ header .container nav .menu-social {
     line-height: 3.9rem;
 }
 
+/* SECTION ABOUT */
+
+.s-about {
+    background-color: red;
+    padding: 6rem;
+}
+
+.s-about .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-about .container .text-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 71rem;
+    gap: 2.4rem;
+}
+
+.s-about .container .text-content p {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.s-about .container .text-content ul {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.s-about .container .img-container {
+    height: 36.8rem;
+    width: 36.8rem;
+}
+
+.s-about .container .img-container img {
+    border-radius: 0.4rem;
+}
+
+/* SECTION CASES */
+
+.s-cases {
+    padding: 4.5rem;
+}
+
+.s-cases .container .case-swiper {
+    margin-top: 8rem;
+}
+
 /* FOOTER */
 
 footer {
