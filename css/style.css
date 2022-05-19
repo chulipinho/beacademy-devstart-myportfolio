@@ -113,7 +113,7 @@ header .container nav .menu-social {
 /*SECTION SUCCESS*/
 
 .s-success {
-    padding: 14.4rem;
+    padding: 14.4rem 0;
     margin: 0 auto;
 }
 
@@ -138,12 +138,18 @@ header .container nav .menu-social {
 
 .s-success .container .cards .card {
     width: 100%;
+    max-width: 27.9rem;
     height: 30.4rem;
     background-color: var(--white-color);
     border-radius: 4px;
-    margin-right: 3.1rem;
+    margin-right: 3.3rem;
     cursor: pointer;
-}
+    transition: all 0.2s;
+  }
+  
+  .s-success .container .cards .card:hover {
+    filter: brightness(90%);
+  }
 
 .s-success .container .cards .card.active {
     background-color: var(--primary-color);
@@ -178,7 +184,7 @@ header .container nav .menu-social {
 /* SECTION ABOUT */
 
 .s-about {
-    background-color: red;
+    background-color: var(--black-color-medium);
     padding: 6rem;
 }
 
@@ -225,6 +231,22 @@ header .container nav .menu-social {
 
 .s-cases .container .case-swiper {
     margin-top: 8rem;
+}
+
+/* SECTION CONTACT */
+
+.s-contact {
+    padding-bottom: 4rem;
+}
+
+.s-contact .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-contact .container .title {
+    
 }
 
 /* FOOTER */
